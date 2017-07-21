@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <div>
+            <h1>Formulario</h1>
+            <form>
+                <label form="nombre"> Escriba su nombre:</label>
+                <input type="text" id="nombre"/>
+                
+                <label form="telefono"> Telefono:</label>
+                <input type="text" id="telefono"/>
+                
+                <label form="correo"> e-Mail:</label>
+                <input type="email" id="correo"/>
+                
+                <label form="lista">Que Necesitas?</label> <br/>
+                 <select id="lista" name="so">
+                 <option value="" selected="selected">- selecciona -</option>
+                 <option value="costo">Costo de Habitaciones</option>
+                 <option value="mac">Precio por noche</option>
+                 <option value="linux">Que ofrecemos</option>
+                 <option value="otro">Otro</option>
+                 </select>
+ 
+                
+                <label form="comentario"> Comentario:</label>                
+                <textarea id="asunto" cols="50" rows="10"></textarea>
+                <button type="submit">Enviar</button>
+            
+            </form>
+            
+        </div>
+    </body>
+</html>
