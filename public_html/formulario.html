@@ -9,20 +9,39 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-       <div>
-            <h1>Formulario</h1>
+        <div id="cabecera"> 
+        EDEN </br>
+        <span><strong><em>El paraiso terrenal</em></strong></span>
+        <div id="menu">
+            <ul>
+                <li>Inicio</li>
+                <li>Instalaciones</li>
+                <li>Comentarios</li>
+                <a href="formulario.html"><li>Contacto</li></a>
+        </div>    
+        <div id="formulario">
+           
+           <h1>Formulario</h1>
             <form>
-                <label form="nombre"> Escriba su nombre:</label>
+                <div>
+                <label form="nombre"> Nombre:</label>
                 <input type="text" id="nombre"/>
-                
+                </div>
+                </br>
+                <div>
                 <label form="telefono"> Telefono:</label>
                 <input type="text" id="telefono"/>
-                
+                </div>
+                </br>
+                <div>
                 <label form="correo"> e-Mail:</label>
                 <input type="email" id="correo"/>
-                
+                </div>
+                </br>
+                <div>
                 <label form="lista">Que Necesitas?</label> <br/>
                  <select id="lista" name="so">
                  <option value="" selected="selected">- selecciona -</option>
@@ -31,14 +50,26 @@ and open the template in the editor.
                  <option value="linux">Que ofrecemos</option>
                  <option value="otro">Otro</option>
                  </select>
- 
-                
+                </div> 
+                </br>
+                <div>
                 <label form="comentario"> Comentario:</label>                
                 <textarea id="asunto" cols="50" rows="10"></textarea>
+                </div>
+                </br>
                 <button type="submit">Enviar</button>
             
             </form>
-            
         </div>
+       <div id="pie"> 
+         
+           Loma Montilla, Bavaro (Frente al Restaurante El Bambino)</br>
+         Tel:809-581-4076 y 809-787-2480 </br>
+         
+         <img src="Imagenes/fimg.png"/>
+         <img src="Imagenes/iimg.png"/>
+         <img src="Imagenes/timg.png"/>
+       </div>
+       
     </body>
 </html>

@@ -8,3 +8,61 @@ and open the template in the editor.
     Author     : 00140064
 */
 
+#cabecera{
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: center;
+    color: green;
+}
+#cabecera span{
+    
+    font-size: 30px;
+    color: black;   
+}
+#menu ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    background: greenyellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+#cuerpo img{
+    width: 2000px;
+    height: 500px;       
+       
+}
+#cuerpo p{
+    
+    font-family: cursive;
+    font-size: 23px;
+    text-align: center; 
+}
+#pie {
+    font-family: arial black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    background: green;
+}
+#pie img{
+    width: 50px;
+    height: 50px;
+    
+}
+#formulario{
+    display: inline-block;
+    font-family: arial black;
+    font-size: 20px;
+    background: greenyellow;
+    width: 800px;
+    margin: 1em;
+    
+}
+label{
+    
+    display: inline-block;
+    width: 800px;
+    
+    font-size: 20px;
+}
